@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.6a165375.css",
+    "main.js": "/react-gh-pages/static/js/main.f28646b2.js",
+    "static/media/jobmeteorBig.jpg": "/react-gh-pages/static/media/jobmeteorBig.79510a68bc6295e33511.jpg",
+    "static/media/resume.pdf": "/react-gh-pages/static/media/resume.17c959b6071ad013e701.pdf",
+    "static/media/motormartBig.jpg": "/react-gh-pages/static/media/motormartBig.a006ff1ba1ce3c10e80a.jpg",
+    "static/media/jobjunBig.jpg": "/react-gh-pages/static/media/jobjunBig.98c04824d2bb2c442eca.jpg",
+    "static/media/snaptBig.jpg": "/react-gh-pages/static/media/snaptBig.4599c89e9c4fd5d6129d.jpg",
+    "static/media/e-phanBig.jpg": "/react-gh-pages/static/media/e-phanBig.2939c50d02ceeaa007a4.jpg",
+    "static/media/jobmeteorSmall.jpg": "/react-gh-pages/static/media/jobmeteorSmall.9cd5648360ee427a6a58.jpg",
+    "static/media/avatar.jpg": "/react-gh-pages/static/media/avatar.4d1dbebdd68eeda60a61.jpg",
+    "static/media/motormartSmall.jpg": "/react-gh-pages/static/media/motormartSmall.8e8251b50cec24fe894d.jpg",
+    "static/media/jobjunSmall.jpg": "/react-gh-pages/static/media/jobjunSmall.47681a0591abba7e1e07.jpg",
+    "static/media/snaptSmall.jpg": "/react-gh-pages/static/media/snaptSmall.0f1c5690f16fad8dcc88.jpg",
+    "static/media/header-bg.png": "/react-gh-pages/static/media/header-bg.5bf82a058f892ab7f237.png",
+    "static/media/e-phanSmall.jpg": "/react-gh-pages/static/media/e-phanSmall.3bb36ba925b2f97718bf.jpg",
+    "static/media/sun.svg": "/react-gh-pages/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
+    "static/media/moon.svg": "/react-gh-pages/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
+    "static/media/gitHub.svg": "/react-gh-pages/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
+    "static/media/linkedIn.svg": "/react-gh-pages/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.6a165375.css.map": "/react-gh-pages/static/css/main.6a165375.css.map",
+    "main.f28646b2.js.map": "/react-gh-pages/static/js/main.f28646b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a165375.css",
+    "static/js/main.f28646b2.js"
+  ]
+}
