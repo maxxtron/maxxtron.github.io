@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.719eb55e.css",
-    "main.js": "/static/js/main.bf0b6e62.js",
+    "main.js": "/static/js/main.93616337.js",
     "static/media/jobmeteorBig.jpg": "/static/media/jobmeteorBig.79510a68bc6295e33511.jpg",
     "static/media/resume.pdf": "/static/media/resume.17c959b6071ad013e701.pdf",
     "static/media/motormartBig.jpg": "/static/media/motormartBig.a006ff1ba1ce3c10e80a.jpg",
     "static/media/jobjunBig.jpg": "/static/media/jobjunBig.98c04824d2bb2c442eca.jpg",
+    "static/media/slava.jpg": "/static/media/slava.42c8e66de497963cab9b.jpg",
     "static/media/snaptBig.jpg": "/static/media/snaptBig.4599c89e9c4fd5d6129d.jpg",
     "static/media/e-phanBig.jpg": "/static/media/e-phanBig.2939c50d02ceeaa007a4.jpg",
     "static/media/jobmeteorSmall.jpg": "/static/media/jobmeteorSmall.9cd5648360ee427a6a58.jpg",
@@ -21,10 +22,10 @@
     "static/media/linkedIn.svg": "/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/index.html",
     "main.719eb55e.css.map": "/static/css/main.719eb55e.css.map",
-    "main.bf0b6e62.js.map": "/static/js/main.bf0b6e62.js.map"
+    "main.93616337.js.map": "/static/js/main.93616337.js.map"
   },
   "entrypoints": [
     "static/css/main.719eb55e.css",
-    "static/js/main.bf0b6e62.js"
+    "static/js/main.93616337.js"
   ]
 }
