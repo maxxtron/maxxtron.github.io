@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/header/Header';
 import { skillsData } from '../helpers/mockData';
+import slava from '../img/slava.jpg';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
               })}
             </ul>
           </div>
+          <img src={slava} alt="Слава Украине" />
         </div>
       </main>
     </div>
