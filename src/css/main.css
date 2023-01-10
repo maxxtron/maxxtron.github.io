@@ -216,6 +216,10 @@ body {
   top: 1px;
 }
 
+.btn-back {
+  font-size: 14px;
+}
+
 /* Projects  */
 
 .projects {
@@ -407,5 +411,11 @@ body {
 
   .social__item {
     width: 28px;
+  }
+
+  /* Btn */
+  .btn-back {
+    padding: 10px 20px;
+    font-size: 12px;
   }
 }

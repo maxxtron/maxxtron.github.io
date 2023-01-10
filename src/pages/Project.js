@@ -19,7 +19,7 @@ const Project = () => {
   return (
     <main className="section">
       <div className="container">
-        <Link to="/projects" className="btn">
+        <Link to="/projects" className="btn btn-back">
           BACK
         </Link>
         <div className="project-details">
