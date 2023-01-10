@@ -23,7 +23,7 @@ const Nav = () => {
     <nav className="nav">
       <div className="container">
         <div className="nav-row">
-          <Link to="/" className="logo">
+          <Link to="/" className="logo" onClick={() => handleActive(1)}>
             <strong>Prokopenko Mykyta</strong>
             <span>portfolio</span>
           </Link>
