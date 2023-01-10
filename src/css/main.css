@@ -106,7 +106,7 @@ body {
   flex-direction: column;
 }
 
-.title-2__flex a {
+.title-2__flex {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -314,6 +314,7 @@ body {
 .content-list__item--social {
   display: flex;
   justify-content: space-between;
+  gap: 40px;
 }
 
 .content-list__item p {
