@@ -21,8 +21,8 @@ const Home = () => {
               })}
             </ul>
           </div>
-          <img src={slava} alt="Слава Украине" />
         </div>
+        <img src={slava} alt="Слава Украине" className="slava" />
       </main>
     </div>
   );
