@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4cc7f3f7.css",
-    "main.js": "/static/js/main.f6840bfb.js",
+    "main.js": "/static/js/main.c28fb95a.js",
     "static/media/jobmeteorBig.jpg": "/static/media/jobmeteorBig.79510a68bc6295e33511.jpg",
     "static/media/resume.pdf": "/static/media/resume.17c959b6071ad013e701.pdf",
     "static/media/motormartBig.jpg": "/static/media/motormartBig.a006ff1ba1ce3c10e80a.jpg",
@@ -21,10 +21,10 @@
     "static/media/linkedIn.svg": "/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/index.html",
     "main.4cc7f3f7.css.map": "/static/css/main.4cc7f3f7.css.map",
-    "main.f6840bfb.js.map": "/static/js/main.f6840bfb.js.map"
+    "main.c28fb95a.js.map": "/static/js/main.c28fb95a.js.map"
   },
   "entrypoints": [
     "static/css/main.4cc7f3f7.css",
-    "static/js/main.f6840bfb.js"
+    "static/js/main.c28fb95a.js"
   ]
 }
