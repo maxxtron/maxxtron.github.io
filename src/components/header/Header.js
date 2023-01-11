@@ -19,7 +19,8 @@ const Header = () => {
               </a>
             </em>
           </strong>
-          <br />a React Frontend developer
+          <br />
+          React Frontend developer
         </h1>
         <div className="header__text">
           <p>with passion for learning new technologies and creating website.</p>
