@@ -1,5 +1,4 @@
 @import 'reset.css';
-/*@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 :root {
@@ -327,6 +326,7 @@ body {
   font-weight: bold;
   display: flex;
   align-items: center;
+  margin-left: 25px;
 }
 
 .content-list__item p + p {
@@ -390,7 +390,7 @@ body {
   }
 
   .title-2 {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-size: 30px;
   }
 
@@ -411,6 +411,10 @@ body {
 
   .content-list {
     row-gap: 20px;
+  }
+
+  .content-list__item p {
+    font-size: 25px;
   }
 
   /* Footer */

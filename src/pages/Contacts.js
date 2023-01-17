@@ -23,7 +23,7 @@ const Contacts = () => {
               <img src={location} alt="location" /> {t('Contacts.location')}
             </h2>
 
-            <p>
+            <p className="title-2__flex-city">
               <img src={ua} alt="Ukraine" className="ukraine" /> {t('Contacts.city')}
             </p>
           </li>
