@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fbd59579.css",
+    "main.css": "/static/css/main.c0cebec9.css",
     "main.js": "/static/js/main.e77d381c.js",
     "static/media/jobmeteorBig.jpg": "/static/media/jobmeteorBig.79510a68bc6295e33511.jpg",
     "static/media/resume.pdf": "/static/media/resume.17c959b6071ad013e701.pdf",
@@ -23,11 +23,11 @@
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "static/media/ua.svg": "/static/media/ua.10f15af7e601877aa54d4ed2fde5566a.svg",
-    "main.fbd59579.css.map": "/static/css/main.fbd59579.css.map",
+    "main.c0cebec9.css.map": "/static/css/main.c0cebec9.css.map",
     "main.e77d381c.js.map": "/static/js/main.e77d381c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbd59579.css",
+    "static/css/main.c0cebec9.css",
     "static/js/main.e77d381c.js"
   ]
 }
