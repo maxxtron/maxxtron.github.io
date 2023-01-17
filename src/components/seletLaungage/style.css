@@ -17,6 +17,7 @@ sort__label {
   color: var(--white);
   cursor: pointer;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .sort__popup {
@@ -53,4 +54,10 @@ sort__label {
 .sort__popup ul li.active {
   font-weight: bold;
   color: var(--white);
+}
+
+@media (max-width: 620px) {
+  .sort__label span {
+    font-size: 18px;
+  }
 }

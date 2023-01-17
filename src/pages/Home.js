@@ -16,7 +16,7 @@ const Home = () => {
                 return (
                   <li key={data.id}>
                     <h2 className="title-2">{t(data.title)}</h2>
-                    <p>{t(data.text)}</p>
+                    <p className="title-2__skills">{t(data.text)}</p>
                   </li>
                 );
               })}

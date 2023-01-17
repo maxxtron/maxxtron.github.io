@@ -35,7 +35,7 @@
   row-gap: 10px;
   align-items: center;
   column-gap: 40px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
 }
@@ -72,5 +72,8 @@
   }
   .logo {
     font-size: 23px;
+  }
+  .nav-list {
+    font-size: 16px;
   }
 }

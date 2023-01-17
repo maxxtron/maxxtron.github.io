@@ -105,7 +105,9 @@ body {
   line-height: 1.3;
   flex-direction: column;
 }
-
+.title-2__skills {
+  font-size: 25px !important;
+}
 .title-2__flex {
   display: flex;
   flex-direction: row;
