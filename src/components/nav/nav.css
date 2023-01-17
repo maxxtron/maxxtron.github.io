@@ -65,3 +65,12 @@
   width: 100%;
   background-color: var(--accent);
 }
+
+@media (max-width: 900px) {
+  .nav-row {
+    justify-content: center;
+  }
+  .logo {
+    font-size: 23px;
+  }
+}
