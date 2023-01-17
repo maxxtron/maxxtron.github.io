@@ -1,0 +1,34 @@
+{
+  "Nav": {
+    "logoName": "Prokopenko Mykyta",
+    "logoSpan": "portfolio",
+    "home": "Home",
+    "projects": "Projects",
+    "contacts": "Contacts"
+  },
+  "Header": {
+    "title": "Hi, my name is",
+    "titleName": "Mykyta",
+    "subTitle": "React Frontend developer",
+    "text": "with passion for learning new technologies and creating website.",
+    "download": "Download CV"
+},
+  "Main": {
+    "hardSkills": "Hard Skills",
+    "softSkills": "Soft Skills",
+    "softText": "Responsibility, Communicability, Stress-resistance, Diligence, Accuracy, Learning, Focus on results"
+  },
+  "Project": {
+    "title": "Projects developed with the team",
+    "snapt": "Internet Shop",
+    "jobMeteor": "Job Search Website",
+    "motormart": "Сar Auction",
+    "ephan": "Site for the selection of coaches and dancers",
+    "jobJun": "Site to help find your first job Junior"
+  },
+  "Contacts": {
+    "contacts": "Contacts",
+    "location": "Location",
+    "city": "Kyiv, Ukraine"
+  }
+}
