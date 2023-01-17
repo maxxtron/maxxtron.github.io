@@ -3,7 +3,10 @@ import avatar from '../../img/avatar.jpg';
 import './header.css';
 import resume from '../../files/resume.pdf';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+
 const Header = () => {
+  const { t } = useTranslation();
   return (
     <header className="header">
       <div className="header__wrapper">
@@ -12,21 +15,21 @@ const Header = () => {
         </div>
         <h1 className="header__title">
           <strong>
-            Hi, my name is{' '}
+            {`${t('Header.title')} `}
             <em>
               <a href="https://github.com/maxxtron" target="_blank">
-                Mykyta
+                {t('Header.titleName')}
               </a>
             </em>
           </strong>
           <br />
-          React Frontend developer
+          {t('Header.subTitle')}
         </h1>
         <div className="header__text">
-          <p>with passion for learning new technologies and creating website.</p>
+          <p>{t('Header.text')}</p>
         </div>
         <Link to={resume} download="React_Frontend_Developer.pdf" className="btn" target="_blank">
-          Download CV
+          {t('Header.download')}
         </Link>
       </div>
     </header>

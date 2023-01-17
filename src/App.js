@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import './css/reset.css';
 import './css/main.css';
 import Nav from './components/nav/Nav';
@@ -14,19 +14,17 @@ import ScrollToTop from './utils/ScrollToTop';
 class App extends Component {
   render() {
     return (
-      <div>
-        <Router>
-          <ScrollToTop />
-          <Nav />
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/project/:id" element={<Project />} />
-            <Route path="/contacts" element={<Contacts />} />
-          </Routes>
-          <Footer />
-        </Router>
-      </div>
+      <Router>
+        <ScrollToTop />
+        <Nav />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/project/:id" element={<Project />} />
+          <Route path="/contacts" element={<Contacts />} />
+        </Routes>
+        <Footer />
+      </Router>
     );
   }
 }

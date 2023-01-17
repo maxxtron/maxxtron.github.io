@@ -22,7 +22,7 @@
   margin-right: auto;
   color: var(--nav-text);
   font-size: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .logo strong {
@@ -37,7 +37,7 @@
   column-gap: 40px;
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav-list__link {

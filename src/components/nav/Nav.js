@@ -1,35 +1,41 @@
 import React, { useEffect, useState } from 'react';
-import sun from '../../img/icons/sun.svg';
-import moon from '../../img/icons/moon.svg';
 import './nav.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { navData } from '../../helpers/mockData';
 import BtnDarkMode from '../btnDarkMode/BtnDarkMode';
+import SelectLanguage from '../seletLaungage/SelectLanguage';
+import { useTranslation } from 'react-i18next';
 
 const Nav = () => {
   const [isActive, setIsActive] = useState(1);
-
+  const location = useLocation();
+  const { t } = useTranslation();
   useEffect(() => {
-    const id = JSON.parse(localStorage.getItem('id'));
-    if (id) {
-      setIsActive(id);
+    if (location.pathname === '/') {
+      setIsActive(1);
     }
-  }, [isActive]);
+    if (location.pathname === '/projects') {
+      setIsActive(2);
+    }
+    if (location.pathname === '/contacts') {
+      setIsActive(3);
+    }
+  }, [isActive, location.pathname]);
   const handleActive = (item) => {
     setIsActive(item);
-    localStorage.setItem('id', item);
   };
+
   return (
     <nav className="nav">
       <div className="container">
         <div className="nav-row">
           <Link to="/" className="logo" onClick={() => handleActive(1)}>
-            <strong>Prokopenko Mykyta</strong>
-            <span>portfolio</span>
+            <strong>{t('Nav.logoName')}</strong>
+            <span>{t('Nav.logoSpan')}</span>
           </Link>
 
           <BtnDarkMode />
-
+          <SelectLanguage />
           <ul className="nav-list">
             {navData.map((data) => {
               return (
@@ -46,7 +52,7 @@ const Nav = () => {
                         : 'nav-list__link'
                     }
                   >
-                    {data.name}
+                    {t(data.name)}
                   </Link>
                 </li>
               );

@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from '../components/header/Header';
 import { skillsData } from '../helpers/mockData';
-import slava from '../img/slava.jpg';
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <Header />
@@ -14,15 +15,14 @@ const Home = () => {
               {skillsData.map((data) => {
                 return (
                   <li key={data.id}>
-                    <h2 className="title-2">{data.title}</h2>
-                    <p>{data.text}</p>
+                    <h2 className="title-2">{t(data.title)}</h2>
+                    <p>{t(data.text)}</p>
                   </li>
                 );
               })}
             </ul>
           </div>
         </div>
-        <img src={slava} alt="Слава Украине" className="slava" />
       </main>
     </div>
   );

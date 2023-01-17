@@ -1,23 +1,8 @@
 import React from 'react';
-import gitHub from '../../img/icons/gitHub.svg';
-import linkedin from '../../img/icons/linkedIn.svg';
+import { socialData } from './../../helpers/mockData';
 import './footer.css';
 
 const Footer = () => {
-  const socialData = [
-    {
-      id: 1,
-      img: gitHub,
-      src: 'https://github.com/maxxtron',
-      name: 'GitHub',
-    },
-    {
-      id: 2,
-      img: linkedin,
-      src: 'https://www.linkedin.com/in/mykyta-prokopenko-67b874195/',
-      name: 'linkedIn',
-    },
-  ];
   return (
     <footer className="footer">
       <div className="container">

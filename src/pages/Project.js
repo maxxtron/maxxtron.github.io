@@ -1,11 +1,13 @@
 import { Link, useParams } from 'react-router-dom';
 import { projects } from '../helpers/mockData';
 import React, { useEffect, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Project = () => {
   const { id } = useParams();
   const project = projects[id];
   const [isClick, setIsClick] = useState(false);
+  const { t } = useTranslation();
   const handleClick = (event) => {
     setIsClick((current) => !current);
   };
@@ -23,7 +25,7 @@ const Project = () => {
           BACK
         </Link>
         <div className="project-details">
-          <h1 className="title-1">{project.info}</h1>
+          <h1 className="title-1">{t(project.info)}</h1>
           <img
             ref={sortRef}
             src={project.imgBig}

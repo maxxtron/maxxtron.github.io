@@ -8,42 +8,43 @@ import ephanSmall from '../img/projects/e-phanSmall.jpg';
 import ephanBig from '../img/projects/e-phanBig.jpg';
 import jobjunSmall from '../img/projects/jobjunSmall.jpg';
 import jobjunBig from '../img/projects/jobjunBig.jpg';
-
+import gitHub from '../img/icons/gitHub.svg';
+import linkedin from '../img/icons/linkedIn.svg';
 const projects = [
   {
     id: 1,
     img: snaptSmall,
     imgBig: snaptBig,
     name: 'snapt',
-    info: 'Internet Shop',
+    info: 'Project.snapt',
   },
   {
     id: 2,
     img: jobmeteorSmall,
     imgBig: jobmeteorBig,
     name: 'Job Meteor',
-    info: 'Job Search Website',
+    info: 'Project.jobMeteor',
   },
   {
     id: 3,
     img: motormartSmall,
     imgBig: motormartBig,
     name: 'Motormart',
-    info: 'Сar Auction',
+    info: 'Project.motormart',
   },
   {
     id: 4,
     img: ephanSmall,
     imgBig: ephanBig,
     name: 'E-Phan',
-    info: 'Site for the selection of coaches and dancers',
+    info: 'Project.ephan',
   },
   {
     id: 5,
     img: jobjunSmall,
     imgBig: jobjunBig,
     name: 'JobJun',
-    info: 'Site to help find your first job Junior',
+    info: 'Project.jobJun',
   },
 ];
 
@@ -52,33 +53,48 @@ const navData = [
     id: 1,
     active: true,
     link: '/',
-    name: 'Home',
+    name: 'Nav.home',
   },
   {
     id: 2,
     active: false,
     link: '/projects',
-    name: 'Projects',
+    name: 'Nav.projects',
   },
   {
     id: 3,
     active: false,
     link: '/contacts',
-    name: 'Contacts',
+    name: 'Nav.contacts',
   },
 ];
 
 const skillsData = [
   {
     id: 1,
-    title: 'Hard skills:',
+    title: 'Main.hardSkills',
     text: 'HTML, CSS/SASS, JS/ES6, React(Classes/Hooks), Redux/Redux-thunk, NextJS,styled-components, i18n/i18next, JSON, Axios, Ajax, Git, Linux OS (Ubuntu,Mint), MacOS',
   },
   {
     id: 2,
-    title: 'Soft skills:',
-    text: 'Responsibility, Communicability, Stress-resistance, Diligence, Accuracy, Learning, Focus on results',
+    title: 'Main.softSkills',
+    text: 'Main.softText',
   },
 ];
 
-export { projects, navData, skillsData };
+const socialData = [
+  {
+    id: 1,
+    img: gitHub,
+    src: 'https://github.com/maxxtron',
+    name: 'GitHub',
+  },
+  {
+    id: 2,
+    img: linkedin,
+    src: 'https://www.linkedin.com/in/mykyta-prokopenko-67b874195/',
+    name: 'linkedIn',
+  },
+];
+
+export { projects, navData, skillsData, socialData };

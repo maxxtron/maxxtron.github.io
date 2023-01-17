@@ -39,13 +39,13 @@
 
 .header__title {
   margin-bottom: 20px;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
   line-height: 1.4;
 }
 
 .header__title strong {
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 700;
 }
 
