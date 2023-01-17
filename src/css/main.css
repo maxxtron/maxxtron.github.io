@@ -436,6 +436,9 @@ body {
     flex-direction: column;
     margin-left: 0px;
   }
+  .content-list__item {
+    margin-bottom: 50px;
+  }
 
   .social__item {
     width: 28px;
