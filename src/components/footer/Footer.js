@@ -1,8 +1,10 @@
 import React from 'react';
 import { socialData } from './../../helpers/mockData';
 import './footer.css';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer className="footer">
       <div className="container">
@@ -19,7 +21,7 @@ const Footer = () => {
             })}
           </ul>
           <div className="copyright">
-            <p>© 2022 Prokopenko Mykyta</p>
+            <p>© 2023 {t('Nav.logoName')}</p>
           </div>
         </div>
       </div>
