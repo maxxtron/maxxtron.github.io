@@ -4,6 +4,7 @@
   "homepage": "https://maxxtron.github.io",
   "private": true,
   "dependencies": {
+    "firebase": "^9.15.0",
     "i18next": "^22.4.9",
     "i18next-browser-languagedetector": "^7.0.1",
     "i18next-http-backend": "^2.1.1",
